@@ -6,13 +6,12 @@ body {
   background-image: url(../Integral/images/big.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  padding: 150px 0;
-  z-index: 1;
+  background-position: 50%;
+  padding: 200px 0;
 }
 
 .main-c {
-  border: 5px var(--alert) solid;
+  /*border: 5px var(--alert) solid;*/
   max-width: 650px;
   margin: auto;
   padding: 100px 0;
@@ -25,46 +24,137 @@ body {
   margin-bottom: 0;
 }
 
-.inter-header {
+.inter-h1 {
   color: var(--delta);
   font-weight: bolder;
-  font-size: 80px;
+  font-size: 90px;
   text-align: center;
 }
 
 .one {
-  max-width: 400px;
+  /*max-width: 400px;*/
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
 }
 
-.one-p {
+.one-h2 {
   color: var(--delta);
   font-weight: bolder;
-  font-size: 50px;
+  font-size: 65px;
   text-align: center;
 }
 
 .sim {
-  max-width: 650px;
+  /*max-width: 650px;*/
   margin: auto;
 }
 
 .sim-p {
   color: var(--delta);
-  font-size: 28px;
+  font-size: 25px;
   text-align: center;
 }
 
 .create {
   /*border: 5px var(--dus) solid;*/
-  max-width: 550px;
+  /*max-width: 550px;*/
   margin: auto;
 }
 
 .create-p {
   color: var(--delta);
-  font-size: 28px;
+  font-size: 30px;
   text-align: center;
+  letter-spacing: 2px;
+}
+
+.vd {
+  max-width: 300px;
+  margin: 100px auto 0 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.v-a {
+  text-decoration: none;
+  color: var(--delta);
+  border: 4px var(--delta) solid;
+  width: 350px;
+  padding: 25px 0;
+  margin: auto;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.v-a:hover {
+  background: var(--skills);
+  color: var(--gamma);
+  border: none;
+}
+
+.d-a {
+  text-decoration: none;
+  color: var(--delta);
+  background: var(--beta);
+  width: 350px;
+  padding: 25px 0;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.d-a:hover {
+  background: var(--skills);
+  color: var(--gamma);
+}
+
+@media screen and (min-width: 757px) {
+  .main-c {
+    max-width: 1700px;
+  }
+
+  .inter {
+    max-width: 550px;
+  }
+
+  .inter-header {
+    font-size: 150px;
+  }
+
+  .one-p {
+    font-size: 120px;
+    letter-spacing: 2px;
+  }
+
+  .sim-p {
+    font-size: 50px;
+  }
+
+  .create-p {
+    font-size: 50px;
+  }
+
+  .vd {
+    max-width: 800px;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .v-a {
+    align-self: center;
+    justify-self: center;
+  }
+
+  .d-a {
+    margin: 0;
+    align-self: center;
+    justify-self: center;
+  }
 }
