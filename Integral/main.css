@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+
+.main {
+  background-image: url(../Integral/images/big.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  z-index: 1;
+}
+
+.main-c {
+  border: 5px var(--alert) solid;
+  max-width: 650px;
+  margin: auto;
+  padding: 100px 0;
+}
+
+.inter {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.inter-header {
+  color: var(--delta);
+  font-weight: bolder;
+  font-size: 80px;
+  text-align: center;
+}
+
+.one {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+.one-p {
+  color: var(--delta);
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+}
+
+.sim {
+  max-width: 650px;
+  margin: auto;
+}
+
+.sim-p {
+  color: var(--delta);
+  font-size: 28px;
+  text-align: center;
+}
+
+.create {
+  /*border: 5px var(--dus) solid;*/
+  max-width: 550px;
+  margin: auto;
+}
+
+.create-p {
+  color: var(--delta);
+  font-size: 28px;
+  text-align: center;
+}
