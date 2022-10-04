@@ -133,4 +133,8 @@ li {
   .dropl-a:active {
     border-bottom: 5px var(--beta) solid;
   }
+
+  .dropl-a:visited {
+    border-bottom: 5px var(--beta) solid;
+  }
 }

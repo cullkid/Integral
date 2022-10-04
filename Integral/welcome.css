@@ -2,19 +2,21 @@ body {
   margin: 0;
 }
 
-.main {
-  background-image: url(../Integral/images/big.jpg);
+.welcome {
+  background-image: url(../Integral/images/bg-welcome.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
   padding: 200px 0;
+  /*box-shadow: inset 0 -3px 6px 0 rgb(0 0 0 / 40%);*/
+  box-shadow: 0 3000px rgba(0, 0, 0, 0.4) inset;
 }
 
-.main-c {
+.welcome-c {
   /*border: 5px var(--alert) solid;*/
   max-width: 650px;
   margin: auto;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .inter {
@@ -22,13 +24,15 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
+  padding: 0px;
 }
 
 .inter-h1 {
   color: var(--delta);
-  font-weight: bolder;
-  font-size: 90px;
+
+  font-size: 80px;
   text-align: center;
+  font-family: Montserrat;
 }
 
 .one {
@@ -36,6 +40,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
+  padding: 0px;
 }
 
 .one-h2 {
@@ -115,7 +120,7 @@ body {
 }
 
 @media screen and (min-width: 757px) {
-  .main-c {
+  .welcome-c {
     max-width: 1700px;
   }
 
@@ -123,11 +128,12 @@ body {
     max-width: 550px;
   }
 
-  .inter-header {
-    font-size: 150px;
+  .inter-h1 {
+    font-size: 180px;
+    font-family: Montserrat;
   }
 
-  .one-p {
+  .one-h2 {
     font-size: 120px;
     letter-spacing: 2px;
   }
