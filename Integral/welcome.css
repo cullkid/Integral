@@ -61,19 +61,6 @@ body {
   text-align: center;
 }
 
-.create {
-  /*border: 5px var(--dus) solid;*/
-  /*max-width: 550px;*/
-  margin: auto;
-}
-
-.create-p {
-  color: var(--delta);
-  font-size: 30px;
-  text-align: center;
-  letter-spacing: 2px;
-}
-
 .vd {
   max-width: 300px;
   margin: 100px auto 0 auto;
@@ -121,29 +108,31 @@ body {
 
 @media screen and (min-width: 757px) {
   .welcome-c {
-    max-width: 1700px;
+    max-width: 1200px;
   }
 
   .inter {
-    max-width: 550px;
+    max-width: 480px;
+    padding: 0px;
   }
 
   .inter-h1 {
-    font-size: 180px;
+    font-size: 120px;
     font-family: Montserrat;
   }
 
+  .one {
+    max-width: 650px;
+    padding: 0px;
+  }
+
   .one-h2 {
-    font-size: 120px;
+    font-size: 80px;
     letter-spacing: 2px;
   }
 
   .sim-p {
-    font-size: 50px;
-  }
-
-  .create-p {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .vd {
