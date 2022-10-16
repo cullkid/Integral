@@ -1,0 +1,63 @@
+.subservice {
+  width: 88%;
+  margin: 100px auto 0 auto;
+  padding-bottom: 80px;
+}
+
+.subservice-c1 {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.subservice-h2 {
+  width: 150px;
+  color: var(--delta);
+  font-size: 40px;
+  margin: 0 auto;
+}
+
+.subservice-h2-nd {
+  width: 320px;
+  color: var(--delta);
+  font-size: 40px;
+  margin: 0 auto;
+}
+
+.subservice-h2-rd {
+  width: 250px;
+  color: var(--delta);
+  font-size: 40px;
+  margin: 0 auto;
+}
+
+.subservice-img {
+  display: block;
+  margin: 40px auto 0 auto;
+}
+
+.subservice-p {
+  width: 100%;
+  font-size: 28px;
+  color: var(--delta);
+}
+
+@media screen and (min-width: 757px) {
+  .subservice {
+    width: 80%;
+    margin: 100px auto 0 auto;
+    padding-bottom: 80px;
+  }
+
+  .subservice-c {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+
+  .subservice-p {
+    width: 70%;
+    font-size: 28px;
+    color: var(--delta);
+    margin: 30px auto 0 auto;
+  }
+}

@@ -3,7 +3,7 @@ body {
 }
 
 .welcome {
-  background-image: url(../Integral/images/bg-welcome.svg);
+  background-image: url(../images/bg-welcome.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -112,22 +112,23 @@ body {
   }
 
   .inter {
-    max-width: 480px;
+    max-width: 580px;
     padding: 0px;
   }
 
   .inter-h1 {
-    font-size: 120px;
+    font-size: 180px;
     font-family: Montserrat;
   }
 
   .one {
-    max-width: 650px;
+    max-width: 1050px;
     padding: 0px;
   }
 
   .one-h2 {
-    font-size: 80px;
+    margin-top: 1px;
+    font-size: 120px;
     letter-spacing: 2px;
   }
 

@@ -1,0 +1,60 @@
+.subwork {
+  margin: 60px auto 0 auto;
+}
+
+.subwork-c {
+  margin: 70px auto 0 auto;
+  background: var(--skills);
+  max-width: 88%;
+  padding: 10px 0 20px 0;
+}
+
+.subwork-p {
+  font-size: 28px;
+  margin: 50px 0 0 30px;
+}
+
+.subwork-strong {
+  font-size: 33px;
+}
+
+.subwork-a {
+  text-decoration: none;
+}
+
+.subwork-ap {
+  font-weight: bolder;
+  font-size: 35px;
+  color: var(--beta);
+  margin: 50px 0 0 30px;
+}
+
+.subwork2 {
+  max-width: 90%;
+  margin: 15px auto 0 auto;
+}
+
+.subwork2-p {
+  margin: 50px 0 10px 20px;
+  font-size: 28px;
+}
+
+@media screen and (min-width: 757px) {
+  .subwork {
+    max-width: 83%;
+    margin: 80px auto 0 auto;
+    display: flex;
+  }
+
+  .subwork-c {
+    width: 1100px;
+  }
+
+  .subwork2 {
+    margin: 20px 0 0 40px;
+  }
+
+  .subwork2-p {
+    font-size: 35px;
+  }
+}

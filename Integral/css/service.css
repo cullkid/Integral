@@ -1,0 +1,92 @@
+.service {
+  background: var(--gamma);
+}
+
+.service-c {
+  width: 88%;
+  margin: 0 auto;
+}
+
+.service-img {
+  display: block;
+  margin: 0 auto 0 auto;
+  padding-top: 20px;
+}
+
+.service-h1:before {
+  content: " ";
+  display: block;
+  height: 6px;
+  width: 170px;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  border-top: 2px var(--delta) solid;
+  border-bottom: 1px var(--delta) solid;
+}
+
+.service-h1 {
+  position: relative;
+  text-align: center;
+  max-width: 757px;
+  margin: 0 auto;
+  font-size: 55px;
+  padding-bottom: 20px;
+  color: var(--delta);
+}
+
+.service-h1:after {
+  content: " ";
+  display: block;
+  height: 6px;
+  width: 170px;
+  position: absolute;
+  top: 40%;
+  right: 0;
+  border-top: 2px var(--delta) solid;
+  border-bottom: 1px var(--delta) solid;
+}
+
+.service-p {
+  color: var(--delta);
+  font-size: 28px;
+}
+
+.service-p2 {
+  width: 83%;
+  margin: 50px auto 0 auto;
+  color: var(--delta);
+  font-size: 32px;
+}
+
+@media screen and (min-width: 757px) {
+  .service-c {
+    width: 83%;
+    margin: 0 auto;
+  }
+
+  .service-h1:before {
+    width: 1020px;
+  }
+
+  .service-h1 {
+    max-width: 100%;
+  }
+
+  .service-h1:after {
+    width: 1020px;
+  }
+
+  .service-p {
+    color: var(--delta);
+    font-size: 30px;
+    margin-top: 60px;
+  }
+
+  .service-p2 {
+    width: 83%;
+    margin: 60px auto 0 auto;
+    color: var(--delta);
+    font-size: 35px;
+  }
+}

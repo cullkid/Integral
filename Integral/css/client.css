@@ -1,0 +1,43 @@
+.client {
+  margin-top: 80px;
+}
+
+.client-h1 {
+  position: relative;
+  width: 350px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 60px;
+  padding: 50px 0 50px 0;
+}
+
+.client-h1:after {
+  content: " ";
+  display: block;
+  height: 4px;
+  width: 200px;
+  position: absolute;
+  top: 80%;
+  left: 85px;
+  background: var(--beta);
+}
+
+.dubclient-img {
+  width: 83%;
+  margin: 80px auto;
+}
+
+.dubclient-c {
+  display: block;
+  height: 60px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 757px) {
+  .subclient {
+    max-width: 90%;
+    margin: 80px auto;
+    display: flex;
+  }
+}

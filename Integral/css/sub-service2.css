@@ -1,0 +1,63 @@
+.subservice2 {
+  background: var(--skills);
+  padding: 100px 0;
+}
+
+.subservice2-c {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.subservice2-h3 {
+  width: 300px;
+  margin: 0 auto;
+  font-size: 50px;
+  color: var(--delta);
+}
+
+.subservice2-p1 {
+  width: 100%;
+  margin: 60px 0 0 0;
+  font-size: 28px;
+  color: var(--delta);
+}
+
+.subservice2-p2 {
+  width: 300px;
+  padding: 25px 0;
+  margin: 60px auto 0 auto;
+  border-radius: 15px;
+  background: var(--beta);
+}
+
+.subservice2-p2:hover {
+  background: var(--skills);
+}
+
+.subservice2-a {
+  display: block;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+  color: var(--delta);
+  text-decoration: none;
+}
+
+.subservice2-a:hover {
+  color: var(--gamma);
+}
+
+@media screen and (min-width: 757px) {
+  .subservice2-c {
+    width: 83%;
+    margin: 0 auto;
+  }
+
+  .subservice2-p1 {
+    width: 50%;
+    margin: 60px auto 0 auto;
+    font-size: 35px;
+    color: var(--delta);
+    text-align: center;
+  }
+}

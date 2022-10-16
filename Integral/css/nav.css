@@ -1,13 +1,13 @@
 :root {
-  --alpha: #08050cea;
+  --alpha: #08040fae;
   --beta: #499eda;
   --gamma: #01060b;
   --delta: #fffafa;
   --alert: #fd5959;
   --contrast: #e84188;
   --elements: #eae9e9;
-  --light: rgba(255, 255, 255, 0.893);
-  --skills: #e1e1e1cf;
+  --light: rgba(255, 255, 255, 0.456);
+  --skills: #d4d0d0a5;
   --dus: #0c7a74;
   --yert: #dbb59a;
   --luxo: #768e7add;
@@ -24,7 +24,7 @@
   display: grid;
   grid-template-columns: min-content 1fr 1fr 1fr min-content;
   grid-template-rows: min-content min-content;
-  position: fixed;
+  /*position: fixed;*/
 }
 
 .nav-logo {
@@ -88,7 +88,12 @@ li {
 @media screen and (min-width: 757px) {
   .nav {
     display: grid;
-    grid-template-columns: minmax(200px, auto) min-content 1fr min-content minmax(200px, auto);
+    grid-template-columns: minmax(200px, auto) min-content 1fr min-content minmax(
+        200px,
+        auto
+      );
+    position: fixed;
+    z-index: 1;
   }
 
   .nav-logo {
@@ -111,20 +116,20 @@ li {
   }
 
   .dropl-li {
-    margin: 20px 20px;
+    margin: 20px 30px;
     font-weight: bolder;
     font-size: 30px;
   }
 
-  .dropl-a:hover {
+  .dropl-li:hover {
     border-bottom: 5px var(--beta) solid;
   }
 
-  .dropl-a:active {
+  .dropl-li:active {
     border-bottom: 5px var(--beta) solid;
   }
 
-  .dropl-a:visited {
+  .dropl-li:visited {
     border-bottom: 5px var(--beta) solid;
   }
 }
