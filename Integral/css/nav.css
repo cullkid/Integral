@@ -1,20 +1,20 @@
 :root {
-  --alpha: #08040fae;
+  --alpha: #020005e1;
   --beta: #499eda;
   --gamma: #01060b;
   --delta: #fffafa;
   --alert: #fd5959;
-  --contrast: #e84188;
-  --elements: #eae9e9;
-  --light: rgba(255, 255, 255, 0.456);
+  --contrast: #ec1722c6;
+  --elements: #bbb4b4ec;
+  --light: rgba(237, 233, 233, 0.914);
   --skills: #d4d0d0a5;
   --dus: #0c7a74;
   --yert: #dbb59a;
-  --luxo: #768e7add;
-  --tagla: #b79a05;
+  --luxo: #154b1fdd;
+  --tagla: #ffbf00;
   --chiboc: #3a5290;
   --sadxo: #dfd566;
-  --bright: #6c8559;
+  --bright: #5d9f1a;
   --rose: #8f0d61;
 }
 

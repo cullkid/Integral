@@ -1,0 +1,110 @@
+.skill {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.skill-h2 {
+  position: relative;
+  width: 350px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 60px;
+  padding: 50px 0 50px 0;
+}
+
+.skill-h2:after {
+  content: " ";
+  display: block;
+  height: 4px;
+  width: 100px;
+  position: absolute;
+  top: 80%;
+  left: 125px;
+  background: var(--beta);
+}
+
+.skill-art {
+  margin-top: 50px;
+}
+
+.skill-artp {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.skill-graph {
+  width: 100%;
+  background: var(--light);
+}
+
+.skill-graph2 {
+  width: 20%;
+  padding: 30px 0;
+  background: var(--luxo);
+}
+
+.skill-typo {
+  width: 100%;
+  background: var(--light);
+}
+
+.skill-typo2 {
+  width: 45%;
+  padding: 30px 0;
+  background: var(--beta);
+}
+
+.skill-hc {
+  width: 100%;
+  background: var(--light);
+}
+
+.skill-hc2 {
+  width: 80%;
+  padding: 30px 0;
+  background: var(--tagla);
+}
+
+.skill-prog {
+  width: 100%;
+  background: var(--light);
+}
+
+.skill-prog2 {
+  width: 100%;
+  padding: 30px 0;
+  background: var(--contrast);
+}
+
+.c2-p {
+  font-size: 28px;
+  margin: 60px 0 0 0;
+}
+
+@media screen and (min-width: 757px) {
+  .skill {
+    width: 83%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+  }
+
+  .skill-flex {
+    display: flex;
+  }
+
+  .skill-c {
+    width: 45%;
+  }
+
+  .skill-c2 {
+    width: 45%;
+    margin-left: 100px;
+  }
+
+  .c2-p {
+    font-size: 35px;
+    margin-bottom: 95px;
+  }
+}

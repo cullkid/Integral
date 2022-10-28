@@ -1,0 +1,36 @@
+.footer {
+  background: var(--gamma);
+  padding: 80px 0;
+}
+
+.footer2 {
+  width: 90%;
+  margin: 0 auto;
+  /* border: 4px var(--delta) solid; */
+  color: var(--elements);
+  font-size: 24px;
+  height: 5px;
+}
+
+.footer-p {
+  text-align: center;
+}
+
+.footer-a {
+  display: inline-block;
+  color: var(--elements);
+}
+
+.footer-a:hover {
+  background: var(--beta);
+}
+
+.footer-love {
+  color: var(--alert);
+}
+
+@media screen and (min-width: 757px) {
+  .footer-p {
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,154 @@
+.contact {
+  width: 100%;
+  padding: 110px 0 160px 0;
+  background: var(--alpha);
+}
+
+.contact2 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contact-img {
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.contact-h1:before {
+  content: " ";
+  display: block;
+  height: 6px;
+  width: 180px;
+  position: absolute;
+  top: 39%;
+  left: 0;
+  border-top: 2px var(--elements) solid;
+  border-bottom: 1px var(--elements) solid;
+}
+
+.contact-h1 {
+  position: relative;
+  text-align: center;
+  max-width: 757px;
+  margin: 0 auto;
+  font-size: 55px;
+  padding-bottom: 20px;
+  color: var(--delta);
+}
+
+.contact-h1:after {
+  content: " ";
+  display: block;
+  height: 6px;
+  width: 180px;
+  position: absolute;
+  top: 39%;
+  right: 0;
+  border-top: 2px var(--elements) solid;
+  border-bottom: 1px var(--elements) solid;
+}
+
+.contact-h6 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  height: 10px;
+  color: var(--elements);
+}
+
+.contact-p {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 35px;
+  color: var(--elements);
+}
+
+.contact-h2 {
+  margin: 50px 0 0 0;
+  color: var(--delta);
+  font-size: 35px;
+}
+
+.contact-sub-art {
+  display: flex;
+  margin: 50px 0 0 0;
+}
+
+.contact-sub-p {
+  margin-left: 20px;
+  color: var(--elements);
+  font-size: 28px;
+}
+
+.contact-sub-art2 {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.form {
+  margin-top: 50px;
+}
+
+.form-art {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0 0 0;
+}
+
+.form-label {
+  color: var(--elements);
+  font-size: 28px;
+}
+
+.form-input {
+  width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-btn {
+  display: block;
+  margin: 50px 0 0 0;
+  padding: 25px;
+  border-radius: 5px;
+  font-size: 28px;
+}
+
+@media screen and (min-width: 757px) {
+  .contact-h1:before {
+    width: 1180px;
+  }
+
+  .contact-h1 {
+    max-width: 100%;
+  }
+
+  .contact-h1:after {
+    width: 1180px;
+  }
+
+  .contact-sub {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+  }
+
+  .contact-sub1 {
+    margin-top: 50px;
+  }
+
+  .form-label {
+    font-size: 35px;
+  }
+
+  .form-input {
+    width: 80%;
+    padding: 30px;
+  }
+
+  .contact-sub-art2 {
+    width: 750px;
+  }
+}

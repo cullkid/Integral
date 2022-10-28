@@ -32,6 +32,7 @@
 
 .subservice2-p2:hover {
   background: var(--skills);
+  color: var(--gamma);
 }
 
 .subservice2-a {
@@ -45,6 +46,7 @@
 
 .subservice2-a:hover {
   color: var(--gamma);
+  background: var(--skills);
 }
 
 @media screen and (min-width: 757px) {

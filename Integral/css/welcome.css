@@ -24,7 +24,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
-  padding: 0px;
+  /* padding: 0px; */
 }
 
 .inter-h1 {
@@ -33,21 +33,25 @@ body {
   font-size: 80px;
   text-align: center;
   font-family: Montserrat;
+  /* margin: 0;
+  padding: 0; */
 }
 
 .one {
   /*max-width: 400px;*/
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0;
+  top: 0;
   padding: 0px;
 }
 
 .one-h2 {
+  display: block;
   color: var(--delta);
   font-weight: bolder;
   font-size: 65px;
   text-align: center;
+  top: 0;
 }
 
 .sim {
@@ -127,12 +131,13 @@ body {
   }
 
   .one-h2 {
-    margin-top: 1px;
+    margin-top: 0;
     font-size: 120px;
     letter-spacing: 2px;
   }
 
   .sim-p {
+    margin-top: 30px;
     font-size: 30px;
   }
 
