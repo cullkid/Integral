@@ -22,7 +22,7 @@
 }
 
 .footer-a:hover {
-  background: var(--beta);
+  color: var(--beta);
 }
 
 .footer-love {
